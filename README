@@ -1,0 +1,2 @@
+Ejercicio 1 del tema 6 de servicios, crear un servidor multihilo que acepte los comandos date,time,all y close + una
+contraseña que estará en %PROGRAMDATA%
