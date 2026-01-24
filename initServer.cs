@@ -85,7 +85,8 @@ namespace Ejer1_Tema6
                         try
                         {
                             string respuesta = sr.ReadLine();
-
+                            if (respuesta != null)
+                            {
                             string[] partes = respuesta.Split(' ');
 
                             switch (partes[0])
@@ -144,7 +145,7 @@ namespace Ejer1_Tema6
 
                                     break;
                             }
-
+                          }
                         }
                         catch (IOException e) { }
                     }
@@ -153,3 +154,4 @@ namespace Ejer1_Tema6
         }
     }
 }
+
